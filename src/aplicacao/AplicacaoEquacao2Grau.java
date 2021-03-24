@@ -38,10 +38,10 @@ public class AplicacaoEquacao2Grau {
 		equacao = new EquacaoDoSegundoGrau(a, b, c);
 		
 		//APLICAÇÃO DA FORMULA DE BASKARA
-		System.out.println("\nDESENVOLVENDO A EQUAÇÃO");
 		System.out.println("Aplicando a formula de baskara:");
-		System.out.print("Resultado do delta: ");
-		System.out.println(equacao.formulaBaskara());
+		System.out.println("Resultado do delta: " + equacao.formulaBaskara());
+		
+		System.out.println("Resultado da raíz do delta: " + equacao.raizDelta());
 		
 		//RESULTADO DAS RAIZ X1 E X2
 		System.out.print("\nResultado do x1: ");

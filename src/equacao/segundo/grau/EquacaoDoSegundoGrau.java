@@ -23,6 +23,12 @@ public class EquacaoDoSegundoGrau extends PolinomioGrau2 implements CondicaoEqua
 		return delta;
 	}
 	
+	//METODO PARA MOSTRAR O RESULTADO DA RAÍZ DO DELTA
+	@Override
+	public double raizDelta() {
+		return Math.sqrt(delta);
+	}
+	
 	//METODOS PARA ENCONTRAR AS RAÍZES
 	@Override
 	public double raizX1() {

@@ -34,6 +34,7 @@ public abstract class PolinomioGrau2 {
 	}
 	
 	public abstract double formulaBaskara();
+	public abstract double raizDelta();
 	public abstract double raizX1();
 	public abstract double raizX2();
 }
