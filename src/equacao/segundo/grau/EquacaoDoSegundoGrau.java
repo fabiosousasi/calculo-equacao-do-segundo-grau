@@ -5,7 +5,6 @@ public class EquacaoDoSegundoGrau extends PolinomioGrau2 implements CondicaoEqua
 	private double delta;
 	
 	
-	
 	public EquacaoDoSegundoGrau() {
 	}
 
@@ -13,7 +12,7 @@ public class EquacaoDoSegundoGrau extends PolinomioGrau2 implements CondicaoEqua
 		super(a, b, c);
 	}
 
-	//METODOS PARA EXECUTAR A FORMULA
+	//METODOS PARA EXECUTAR A FORMULA DE BASKARA
 	@Override
 	public double formulaBaskara() {
 		delta = Math.pow(super.getB(), 2) - (4 * super.getA() * super.getC());
@@ -23,7 +22,8 @@ public class EquacaoDoSegundoGrau extends PolinomioGrau2 implements CondicaoEqua
 		}
 		return delta;
 	}
-
+	
+	//METODOS PARA ENCONTRAR AS RAÍZES
 	@Override
 	public double raizX1() {
 		double x1 = (-super.getB() + Math.sqrt(delta)) / (2 * super.getA());

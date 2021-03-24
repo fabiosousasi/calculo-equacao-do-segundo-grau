@@ -39,7 +39,7 @@ public class AplicacaoEquacao2Grau {
 		
 		//APLICAÇÃO DA FORMULA DE BASKARA
 		System.out.println("\nDESENVOLVENDO A EQUAÇÃO");
-		System.out.println("\nAplicando a formula de baskara:");
+		System.out.println("Aplicando a formula de baskara:");
 		System.out.print("Resultado do delta: ");
 		System.out.println(equacao.formulaBaskara());
 		
